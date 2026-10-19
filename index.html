@@ -356,7 +356,6 @@
             z-index: 1;
         }
 
-        /* TRANG TRÍ LẠI NÚT PHÁT NHẠC NỀN CỰC KỲ SANG TRỌNG & TINH TẾ */
         .music-floating-container {
             position: fixed;
             bottom: 30px;
@@ -436,7 +435,6 @@
 </head>
 <body>
 
-    <!-- Thẻ Audio hỗ trợ chuẩn hóa type m4a, mp3, aac tương thích tuyệt đối mọi trình duyệt -->
     <audio id="bgMusic" loop preload="auto">
         <source src="nhac_nen.m4a" type="audio/mp4">
         <source src="nhac_nen.mp3" type="audio/mpeg">
@@ -444,7 +442,6 @@
         Trình duyệt của bạn không hỗ trợ thẻ audio.
     </audio>
 
-    <!-- Nút Bật/Tắt nhạc nền được thiết kế lại sang trọng -->
     <div class="music-floating-container">
         <button id="musicToggleBtn" class="music-toggle-btn" title="Bật/Tắt nhạc nền">
             <span class="music-icon" id="musicIcon">🔇</span>
@@ -454,7 +451,6 @@
 
     <div class="petals-container" id="petals"></div>
 
-    <!-- MÀN HÌNH 1: TRANG CHỦ -->
     <main class="container" id="homeView">
         <header class="hero-header">
             <span class="badge">✨ MÓN QUÀ ĐẶC BIỆT TỪ CÁC BẠN NAM 12A5 ✨</span>
@@ -480,19 +476,15 @@
         <section class="girls-section">
             <h3 class="section-heading">🎁 Chọn Tên Của Bạn Để Vào Trang Video Chúc Mừng 🎁</h3>
             <p class="section-sub">Nhấn vào đúng tên của bạn để mở món quà bí mật dành riêng cho bạn nhé!</p>
-
             <div class="girls-grid" id="girlsGrid"></div>
         </section>
     </main>
 
-    <!-- MÀN HÌNH 2: TRANG XEM VIDEO RIÊNG -->
     <section class="video-page-view hidden" id="videoPageView">
         <div class="container">
             <div class="video-page-card">
                 <div class="video-page-top">
-                    <button class="back-btn" id="backHomeBtn">
-                        ← Quay lại trang lá thư 12A5
-                    </button>
+                    <button class="back-btn" id="backHomeBtn">← Quay lại trang lá thư 12A5</button>
                     <span class="personal-tag" id="personalTag">Quà tặng riêng 20/10</span>
                 </div>
 
@@ -553,7 +545,7 @@
                 name: "Linh Sang",
                 icon: "🌼",
                 wish: "Chúc Linh Sang luôn yêu đời, xinh tươi, ngập tràn niềm vui mỗi ngày và đỗ vào ngôi trường đại học mà bạn hằng mơ ước!",
-                videoUrl: "https://drive.google.com/file/d/1dSMvbTc_OqgwFOuKoa1s9_ieBLLiLJ1F/view?usp=sharing""
+                videoUrl: "https://drive.google.com/file/d/1dSMvbTc_OqgwFOuKoa1s9_ieBLLiLJ1F/view?usp=sharing"
             },
             {
                 name: "Thu Phương",
