@@ -23,7 +23,7 @@ const girlsData = [
         name: "Hương Giang",
         icon: "🌺",
         wish: "Chúc Hương Giang luôn giữ nụ cười tỏa nắng trên môi, gặp thật nhiều may mắn và bứt phá điểm số thật cao trong năm lớp 12!",
-        videoUrl: "https://drive.google.com/file/d/1kWnIEPeKmvkY8pFZS4Tm6xsd1ebb6Fzi/view?usp=sharingQ" // <-- Thay link video của Hương Giang vào đây
+        videoUrl: "https://drive.google.com/file/d/1kWnIEPeKmvkY8pFZS4Tm6xsd1ebb6Fzi/view?usp=sharing" // <-- Thay link video của Hương Giang vào đây
     },
     {
         name: "Ánh Ngọc",
